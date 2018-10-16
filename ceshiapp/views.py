@@ -7,3 +7,9 @@ def get():
     print('hello world!')
 get()
 # aaaaaaaaaaaaaaaaaaaaaaaaaa
+
+def post():
+    print('hello world!')
+
+
+post()
