@@ -5,6 +5,5 @@ from django.shortcuts import render
 
 def get():
     print('hello world!')
-
 get()
 # aaaaaaaaaaaaaaaaaaaaaaaaaa
