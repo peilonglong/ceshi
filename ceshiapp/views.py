@@ -11,5 +11,9 @@ get()
 def post():
     print('hello world!')
 
+def like():
+    print('加油，你是最棒的！')
+like()
+
 
 post()
