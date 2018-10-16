@@ -77,8 +77,12 @@ WSGI_APPLICATION = 'ceshi.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'dailyfresh_bj18',
+        'USER': 'root',
+        'PASSWORD': 'root',
+        'HOST': '172.16.179.130',
+        'PORT': 3306,
     }
 }
 
