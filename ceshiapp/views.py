@@ -15,5 +15,8 @@ def like():
     print('加油，你是最棒的！')
 like()
 
+def how():
+    print('are you ok?')
+how()
 
 post()
